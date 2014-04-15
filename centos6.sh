@@ -130,7 +130,7 @@ cd /home/git
 if [ ! -d gitlab ]; then
     sudo -u git git clone https://github.com/gitlabhq/gitlabhq.git gitlab
     cd gitlab
-    sudo -u git git checkout 6-5-stable
+    sudo -u git git checkout 6-7-stable
 
     sudo -u git cp -v config/gitlab.yml.example config/gitlab.yml
     sudo -u git cp -v config/unicorn.rb.example config/unicorn.rb
